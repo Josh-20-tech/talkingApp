@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="pic/PASS.jpg" type="image/x-icon">
+    <script src="js/bootstrap.min.js"></script>
+    <title>TALKING APP</title>
+</head>
+<body>
+    <div class="container  pt-5">
+        <h1 class="text-center mt-3 mb-3 text-info">MY TALKING APPLICATION</h1>
+        <input type="text" class="form-control" placeholder="Write something...." autocomplete="off" name="" id="input">
+        <button class="btn btn-outline-info mt-2" onclick="speechSynthesis.speak(new SpeechSynthesisUtterance(input.value))">📢</button>
+    </div>
+    
+</body>
+</html>
